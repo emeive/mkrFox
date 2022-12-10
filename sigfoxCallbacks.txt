@@ -1,0 +1,8 @@
+Sigfox Callbacks
+
+Custom payload config:
+presion1::int:16:little-endian temperatura::int:8:little-endian humedad::int:8:little-endian temperaturaInterna::int:8:little-endian altura::int:16:little-endian
+
+Url pattern
+https://api.thingspeak.com/update?api_key=80E9SVER2XE3LXD2&field2={customData#temperatura}&field3={customData#}&field4={customData#temperaturaInterna}&field5={customData#altura}
+														
